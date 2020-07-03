@@ -2,3 +2,8 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
   padding: 20px 50px;
 }
+
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
