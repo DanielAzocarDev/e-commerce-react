@@ -17,7 +17,7 @@ class SignIn extends Component {
     };
   }
 
-  handlerChange = (e) => {
+  handleChange = (e) => {
     // Sacamos estos valores del e.targer
     const { name, value } = e.target;
     this.setState({
@@ -46,14 +46,14 @@ class SignIn extends Component {
             name="email"
             type="email"
             value={this.state.email}
-            handleChange={this.handlerChange}
+            handleChange={this.handleChange}
           />
           <FormInput
             label="Password"
             name="password"
             type="password"
             value={this.state.password}
-            handleChange={this.handlerChange}
+            handleChange={this.handleChange}
           />
 
           <div className="buttons">
